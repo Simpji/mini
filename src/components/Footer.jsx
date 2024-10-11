@@ -12,6 +12,7 @@ function Footer() {
           <Link to="/privacy" className="hover:underline">Privacy Policy</Link>
           <Link to="/terms" className="hover:underline">Terms of Service</Link>
           <Link to="/contact" className="hover:underline">Contact Us</Link>
+          <Link to="/contact" className="hover:underline">Contact Us</Link>
         </div>
       </div>
     </footer>
