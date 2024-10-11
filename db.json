@@ -1,0 +1,116 @@
+{
+    "photos": [
+        {
+            "id": 1,
+            "url": "/img/photo1.jpg",
+            "title": "Discover the Beauty of Africa",
+            "description": "Explore breathtaking landscapes and vibrant cultures, all captured in stunning detail.",
+            "author": "John Doe",
+            "location": "Serengeti, Tanzania"
+        },
+        {
+            "id": 2,
+            "url": "/img/photo2.jpg",
+            "title": "Every Picture Tells a Story",
+            "description": "Dive into the tales behind each moment, showcasing the essence of life across the continent.",
+            "author": "Jane Smith",
+            "location": "Cape Town, South Africa"
+        },
+        {
+            "id": 3,
+            "url": "/img/photo3.jpg",
+            "title": "Your Journey Begins Here",
+            "description": "Join us in celebrating the rich tapestry of African heritage and nature, one image at a time.",
+            "author": "Alice Johnson",
+            "location": "Victoria Falls, Zimbabwe"
+        },
+        {
+            "id": 4,
+            "url": "/img/photo4.jpg",
+            "title": "The Colors of Africa",
+            "description": "Experience the vibrant colors that define African art and culture.",
+            "author": "Michael Brown",
+            "location": "Nairobi, Kenya"
+        },
+        {
+            "id": 5,
+            "url": "/img/photo6.jpg",
+            "title": "A Journey Through the Savannah",
+            "description": "Witness the incredible wildlife and stunning landscapes of the savannah.",
+            "author": "Emma Wilson",
+            "location": "Masai Mara, Kenya"
+        },
+        {
+            "id": 6,
+            "url": "/img/photo5.jpg",
+            "title": "Serenity in the Wilderness",
+            "description": "Find peace in the untouched beauty of Africa's natural landscapes.",
+            "author": "Liam Davis",
+            "location": "Kruger National Park, South Africa"
+        },
+        {
+            "id": 7,
+            "url": "/img/photo7.jpg",
+            "title": "Cultural Heritage",
+            "description": "Explore the rich traditions and heritage of African communities.",
+            "author": "Olivia Garcia",
+            "location": "Accra, Ghana"
+        },
+        {
+            "id": 8,
+            "url": "/img/photo10.jpeg",
+            "title": "Majestic Mountains",
+            "description": "Experience the breathtaking views of Africa's highest peaks.",
+            "author": "Sophia Martinez",
+            "location": "Mount Kilimanjaro, Tanzania"
+        },
+        {
+            "id": 9,
+            "url": "/img/fun1.jpg",
+            "title": "Joyful Moments",
+            "description": "Capture the joy of life and laughter.",
+            "author": "Fun Lover",
+            "location": "Family Gathering"
+        },
+        {
+            "id": 10,
+            "url": "/img/fun2.jpeg",
+            "title": "Playful Times",
+            "description": "Experience moments filled with fun and play.",
+            "author": "Joy Maker",
+            "location": "Amusement Park"
+        },
+        {
+            "id": 11,
+            "url": "/img/fun3.jpg",
+            "title": "Fun in the Sun",
+            "description": "Enjoy sunny days filled with laughter.",
+            "author": "Sunshine Seeker",
+            "location": "Beach"
+        },
+        {
+            "id": 12,
+            "url": "/img/fun4.jpeg",
+            "title": "Laughter Everywhere",
+            "description": "Share laughs with friends and family.",
+            "author": "Giggles",
+            "location": "Backyard BBQ"
+        },
+        {
+            "id": 13,
+            "url": "/img/fun5.jpg",
+            "title": "Crazy Adventures",
+            "description": "Explore the world with a playful spirit.",
+            "author": "Adventure Seeker",
+            "location": "Outdoor Festival"
+        },
+        {
+            "id": 14,
+            "url": "/img/fun6.jpg",
+            "title": "Silly Faces",
+            "description": "Capture the fun in every silly expression.",
+            "author": "Silly Billy",
+            "location": "Photo Booth"
+        }
+    ]
+}
