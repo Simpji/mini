@@ -1,7 +1,7 @@
-
 import React, { useContext } from 'react';
 import ImageModal from './ImageModal';
 import ImagefindContext from '../context/ImagefindContext';
+
 
 function Landing({ photos }) {
     const { openModal, isModalOpen, selectedImage, closeModal, loading } = useContext(ImagefindContext);

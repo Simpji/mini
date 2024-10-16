@@ -2,6 +2,7 @@
 import React, { useContext } from 'react';
 import Landing from '../Landing';
 import ImagefindContext from '../../context/ImagefindContext';
+import ImageDetail from '../ImageDetail';
 
 function Home() {
     const { photos, searchQuery, handleSearchChange, loading, error, fetchPhotos } = useContext(ImagefindContext);

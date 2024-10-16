@@ -1,8 +1,9 @@
-
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function ImageModal({ image, onClose }) {
     const [loading, setLoading] = useState(true);
+    const navigate = useNavigate();
 
     useEffect(() => {
         if (image) {
@@ -12,6 +13,11 @@ function ImageModal({ image, onClose }) {
 
     const handleImageLoad = () => {
         setLoading(false);
+    };
+
+    const handleImageClick = () => {
+        navigate(`/image/${image.id}`); // Navigate to ImageDetail page
+        onClose(); // Close the modal
     };
 
     if (!image) return null;
@@ -25,7 +31,8 @@ function ImageModal({ image, onClose }) {
                     src={image.url} 
                     alt={image.title} 
                     onLoad={handleImageLoad} 
-                    style={loading ? { display: 'none' } : {}} 
+                    onClick={handleImageClick} // Click to navigate
+                    style={loading ? { display: 'none' } : { cursor: 'pointer' }} // Show pointer cursor
                 />
             </div>
         </div>

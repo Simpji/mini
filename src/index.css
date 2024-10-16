@@ -220,17 +220,28 @@ h1 {
         font-size: 24px; 
     }
 
-    .header ul {
+    /* .header ul {
         flex-direction: column; 
         gap: 10px;
+    } */
+    .header ul {
+        flex-wrap: wrap;
+        gap: 30px;
     }
+
 
     .search-bar input {
         width: 100%; 
     }
     .banner {
-        height: 30vh; 
-        overflow: hidden; 
+        height: auto; 
+        min-height: 30vh;
+    }
+    .image-card img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        display: block;
     }
 
     .search-bar {
